@@ -1,5 +1,10 @@
 vim.cmd("let g:netrw_liststyle = 3")
 
+vim.cmd("set shell=pwsh")
+vim.cmd("set shellcmdflag=-command")
+vim.cmd("set shellquote=\"")
+vim.cmd("set shellxquote=")
+
 local opt = vim.opt
 
 opt.relativenumber = true
