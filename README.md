@@ -1,4 +1,4 @@
-#  PS-NVim
+# PS-NVim
 
 NeoVim configuration files for PowerShell
 
@@ -16,13 +16,15 @@ NeoVim configuration files for PowerShell
 - **Development (pre-release):** `choco install neovim --pre`
 
 #### [Scoop](https://scoop.sh/)
+
 ```powershell
 scoop bucket add main
 scoop install neovim
 ```
+
 - **Release:** `scoop install neovim`
 
 Several Neovim GUIs are available from scoop (extras): [scoop.sh/#/apps?q=neovim](https://scoop.sh/#/apps?q=neovim)
 
-2. Git
+### 2. Git
 
