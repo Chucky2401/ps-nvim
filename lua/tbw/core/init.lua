@@ -1,5 +1,6 @@
 require("tbw.core.options")
 require("tbw.core.keymaps")
+require("tbw.core.harpoon")
 
 require("nvim-tree").setup({
   filters = {
