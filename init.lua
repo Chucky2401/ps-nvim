@@ -42,4 +42,13 @@ end)
 vim.o.shell = "pwsh.exe"
 
 require("tbw.core")
+-- set shell=powershell
+-- set shellcmdflag=-command
+-- set shellquote=\"
+-- set shellxquote=
 -- require("tbw.lazy")
+vim.o.shell = "pwsh.exe"
+vim.o.shellcmdflag = "-NoProfile -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;"
+vim.o.shellquote = ""
+vim.o.shellxquote = ""
+
