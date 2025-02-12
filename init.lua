@@ -39,5 +39,7 @@ vim.schedule(function()
   require "mappings"
 end)
 
+vim.o.shell = "pwsh.exe"
+
 require("tbw.core")
 -- require("tbw.lazy")
