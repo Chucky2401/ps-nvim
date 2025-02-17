@@ -1,4 +1,4 @@
-# PS-NVim
+# PowerShell NVim
 
 NeoVim configuration files for PowerShell
 
